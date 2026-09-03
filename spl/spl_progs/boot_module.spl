@@ -111,7 +111,7 @@ PTLR = 10;
 
 //Process table entries for even.xsm
 [PROCESS_TABLE+32+1] = 2;
-[PROCESS_TABLE+32+4] = CREATED;
+[PROCESS_TABLE+32+4] = TERMINATED;
 [PROCESS_TABLE+32+11] = 88; //User area
 [PROCESS_TABLE+32+12] = 0; //kernel stack (offset)
 [PROCESS_TABLE+32+13] = 8*512;  //user stack

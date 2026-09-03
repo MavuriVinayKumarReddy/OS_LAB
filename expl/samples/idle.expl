@@ -7,7 +7,7 @@ int main()
     begin
     a=101;
         while(a<=200) do
-            temp = exposcall("Write",-2,a);
+            //temp = exposcall("Write",-2,a);
             a=a+1;
         endwhile;
         return 0;
